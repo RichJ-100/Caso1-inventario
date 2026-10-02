@@ -117,7 +117,7 @@ sequenceDiagram
         API->>DB: Estado EJECUTADA + auditoría
     else Falla o timeout
         API->>MQ: Reintento con backoff
-        API->>DB: Auditoría del fallo; tras N intentos queda en ERROR y alerta
+        API->>DB: Auditoría del fallo. tras N intentos queda en ERROR y alerta
     end
 ```
 
