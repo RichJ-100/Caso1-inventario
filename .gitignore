@@ -1,0 +1,14 @@
+# Maven
+target/
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# SO
+.DS_Store
+
+# Entorno (si quieres no subir secretos, descomenta)
+# .env
